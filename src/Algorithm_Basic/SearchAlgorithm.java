@@ -12,21 +12,20 @@ public class SearchAlgorithm {
         int index = -1; //찾은위치
         //process (Binary Search)
         int low = 0;
-        int last = N-1;
-        int mid = (low+last)/2;
+        int high = N-1;
 
-        while(true){
+        while(low <= high){
+            int mid = (low+high)/2;
             if(data[mid]==search){
                 flag = true;
                 index = mid;
                 break;
             }else if(data[mid]<search){
                 low = mid +1;
-                mid = (low+last)/2;
 
             }else if(data[mid]>search){
-                last = mid-1;
-                mid = (low+last)/2;
+                high = mid-1;
+
             }
         }
 
