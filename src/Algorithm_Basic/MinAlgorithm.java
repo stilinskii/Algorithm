@@ -1,4 +1,4 @@
-
+package Algorithm_Basic;
 //[?]주어진 데이터 중에서 가장 작은 짝수
 
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-//[?]무작위 데이터를 순서대로 [오름차순|내림차순] 정렬
+package Algorithm_Basic;//[?]무작위 데이터를 순서대로 [오름차순|내림차순] 정렬
 
 import java.util.Arrays;
 
