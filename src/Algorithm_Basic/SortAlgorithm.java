@@ -23,5 +23,7 @@ public class SortAlgorithm {
 
         //output : Console, Desktop, Web, Mobile, ...
         Arrays.stream(data).forEach(System.out::println);
+
+
     }
 }
